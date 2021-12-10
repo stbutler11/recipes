@@ -1,7 +1,13 @@
 const pug = require('pug');
+const yaml = require('js-yaml');
+const fs   = require('fs');
 
-// Compile template.pug, and render a set of data
-console.log(pug.renderFile('template.pug', {
-  name: 'Timothy'
-}));
-// "<p>Timothy's Pug source code!</p>"
+
+// Get document, or throw exception on error
+try {
+    const doc = yaml.load(fs.readFileSync('espresso-martini.yml', 'utf8'));
+    console.log(doc);
+    console.log(pug.renderFile('template.pug', { recipes: [doc] }));
+  } catch (e) {
+    console.log(e);
+  }
