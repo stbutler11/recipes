@@ -1,0 +1,33 @@
+
+- 
+    var recipe= {
+        title: "Test title",
+        img: "images/espresso_martini.jpg",
+        ingredients: [
+            "Item 1",
+            "Item 2",
+            "Item 3"
+        ],
+        method: [
+            "Step 1",
+            "Step 2",
+            "Step 3"
+        ]
+    }
+
+div(class=".max-w-md.mx-auto.bg-white.rounded-xl.shadow-md.overflow-hidden.sm:max-w-2xl")
+    div(class="sm:flex")
+        div(class="sm:flex-shrink-0")
+            img(class="h-48 w-full object-cover sm:w-48" src=recipe.img alt=recipe.title)
+        div(class="sm:p-0 sm:pl-8 p-8")
+            h1(class="uppercase tracking-wide text-sm text-indigo-500 font-semibold") #{recipe.title}
+            h2(class="font-semibold pt-4") Ingredients
+            ul(class="list-disc")
+                each  item in recipe.ingredients
+                    li #{item}
+            
+            h2(class="font-semibold pt-4") Method
+            ul(class="list-decimal")
+                each  step in recipe.method
+                    li #{step}
+    h1 hello
