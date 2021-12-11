@@ -1,7 +1,7 @@
 Espresso Martini
 ------------------
 
-![Image of espresso martini](./espresso_martini.jpg)
+![Image of espresso martini](./images/espresso_martini.jpg)
 
 # Ingredients:
   - 40ml Vodka (Vanilla if possible)
