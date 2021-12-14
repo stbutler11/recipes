@@ -1,16 +1,13 @@
 ---
 name: Add a new recipe
 about: This can be used to automatically create a PR for a new recipe
-title: "[Recipe] ..."
+title: Name of recipe
 labels: new recipe
 assignees: stbutler11
 
 ---
 
-Name of recipe
-------------------
-
-![Image](./images/image.jpg)
+![Attach the image](./images/image.jpg)
 
 # Ingredients:
   - Item 1
