@@ -8,7 +8,6 @@ Espresso Martini
   - 20ml Kahlua
   - 20ml Espresso
   - 2 heaped teaspoons of sugar
-  - Frothed milk or cream
   - 3 coffee beans for garnish
 
 # Method:
