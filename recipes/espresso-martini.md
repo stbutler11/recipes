@@ -7,8 +7,7 @@ Espresso Martini
   - 40ml Vodka (Vanilla if possible)
   - 20ml Kahlua
   - 20ml Espresso
-  - 2 heaped teaspoons of sugar
-  - Frothed milk or cream
+  - 20ml simple syrup
   - 3 coffee beans for garnish
 
 # Method:

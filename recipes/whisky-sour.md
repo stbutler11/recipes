@@ -4,10 +4,10 @@ Whisky Sour
 ![Image of whisky sour](./images/whisky_sour.jpg)
 
 # Ingredients:
-  - 75ml whisky
-  - 75ml lemon
-  - 75ml egg white
-  - 3 spoons of sugar
+  - 100ml whisky
+  - 100ml lemon
+  - 100ml egg white
+  - 50ml simple syrup
 
 # Method:
   - Add all the ingredients to a shaker
@@ -15,3 +15,4 @@ Whisky Sour
   - Top up shaker with ice
   - Shake
   - Strain over ice
+  - Add 3 drops of Angustura Bitters
